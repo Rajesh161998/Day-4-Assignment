@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Marks and Grade.....
+        </title>
+    </head>
+    <body>
+        <script>
+            var mark=prompt("Enter your mark:")
+            var grade;
+            if(mark>=75&&mark<=100){
+                grade='A';
+            }
+            else if(mark>=50&&mark<75){
+                grade='B';
+            }
+            else if(mark>=25&&mark<50){
+                grade='C';
+            }
+            else{
+                grade='Fail';
+            }
+            console.log(`Mark is ${mark} and grade is ${grade}`);
+        </script>
+    </body>
+</html>
